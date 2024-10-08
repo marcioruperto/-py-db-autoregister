@@ -8,13 +8,15 @@ link = 'https://dlp.hashtagtreinamentos.com/python/intensivao/login'
 # Sistema criado apenas para testes de cadastro!
 
 pyautogui.press('win')
+print()
+
 pyautogui.write('chrome')
 pyautogui.press('enter')
 pyautogui.click(x=343, y=62)
 pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
 pyautogui.press('enter')
 time.sleep(3)
-# Passo 2: Fazer log ingalinhotricoloco
+# Passo 2: Fazer log in
 pyautogui.click(x=506, y=405)
 pyautogui.write('marciruperto@email.com')
 pyautogui.press('tab')
